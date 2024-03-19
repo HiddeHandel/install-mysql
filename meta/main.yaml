@@ -1,0 +1,24 @@
+dependencies: []
+
+galaxy_info:
+  role_name: install_mysql
+  author: HiddeHandel
+  description: install mysql on ubuntu,debian
+  company: "my git repo"
+  license: "license"
+  min_ansible_version: 2.10
+  platforms:
+    - name: Debian
+      versions:
+        - buster
+        - bullseye
+        - bookworm
+    - name: Ubuntu
+      versions:
+        - bionic
+        - focal
+        - jammy
+  galaxy_tags:
+    - system
+    - orchestration
+    - server

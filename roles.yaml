@@ -1,0 +1,7 @@
+- name: install mysql
+  hosts: changeme
+  remote_user: changeme
+  become: yes
+  roles:
+    - install_mysql
+
